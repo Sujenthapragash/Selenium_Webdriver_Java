@@ -2,14 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3bd34464-fe59-4612-85e7-f6b58c472c95" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/dropDown/DropDownTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/HoversPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/hover/HoverTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/DropDownPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/DropDownPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Login/LoginTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/login/LoginTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/base/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/base/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/base/BaseTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/DropDownPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/DropDownPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Login/LoginTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Login/LoginTests.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,14 +50,14 @@
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/resources" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="pages" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/resources" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="pages" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resources" />
     </key>
   </component>
   <component name="RunManager" selected="TestNG.DropDownTests.testSelectOption">
@@ -168,7 +166,30 @@
       <option name="presentableId" value="Default" />
       <updated>1580129560088</updated>
     </task>
+    <task id="LOCAL-00001" summary="drop down test implemented">
+      <created>1621822335008</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1621822335008</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="drop down test implemented" />
+    <option name="LAST_COMMIT_MESSAGE" value="drop down test implemented" />
   </component>
   <component name="WindowStateProjectService">
     <state x="320" y="112" key="#Project_Structure" timestamp="1621047852092">
@@ -179,37 +200,45 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="100" y="100" width="1240" height="700" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1440.900@0.0.1440.900" timestamp="1621822290374" />
-    <state x="231" y="49" key="CommitChangelistDialog2" timestamp="1621816553958">
+    <state x="231" y="49" key="CommitChangelistDialog2" timestamp="1621822334526">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="231" y="49" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1621816553958" />
-    <state width="1398" height="275" key="GridCell.Tab.0.bottom" timestamp="1621822137517">
+    <state x="231" y="49" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1621822334526" />
+    <state width="1398" height="275" key="GridCell.Tab.0.bottom" timestamp="1621822403584">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="275" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1621822137517" />
+    <state width="1398" height="275" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1621822403584" />
     <state width="589" height="419" key="GridCell.Tab.0.bottom/0.25.1440.818@0.25.1440.818" timestamp="1621051209453" />
     <state width="1398" height="275" key="GridCell.Tab.0.bottom/0.25.1440.819@0.25.1440.819" timestamp="1621218462136" />
-    <state width="1398" height="275" key="GridCell.Tab.0.center" timestamp="1621822137516">
+    <state width="1398" height="275" key="GridCell.Tab.0.center" timestamp="1621822403582">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="275" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1621822137516" />
+    <state width="1398" height="275" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1621822403582" />
     <state width="589" height="419" key="GridCell.Tab.0.center/0.25.1440.818@0.25.1440.818" timestamp="1621051209453" />
     <state width="1398" height="275" key="GridCell.Tab.0.center/0.25.1440.819@0.25.1440.819" timestamp="1621218462135" />
-    <state width="1398" height="275" key="GridCell.Tab.0.left" timestamp="1621822137515">
+    <state width="1398" height="275" key="GridCell.Tab.0.left" timestamp="1621822403582">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="275" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1621822137515" />
+    <state width="1398" height="275" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1621822403582" />
     <state width="589" height="419" key="GridCell.Tab.0.left/0.25.1440.818@0.25.1440.818" timestamp="1621051209452" />
     <state width="1398" height="275" key="GridCell.Tab.0.left/0.25.1440.819@0.25.1440.819" timestamp="1621218462135" />
-    <state width="1398" height="275" key="GridCell.Tab.0.right" timestamp="1621822137516">
+    <state width="1398" height="275" key="GridCell.Tab.0.right" timestamp="1621822403583">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="275" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1621822137516" />
+    <state width="1398" height="275" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1621822403583" />
     <state width="589" height="419" key="GridCell.Tab.0.right/0.25.1440.818@0.25.1440.818" timestamp="1621051209453" />
     <state width="1398" height="275" key="GridCell.Tab.0.right/0.25.1440.819@0.25.1440.819" timestamp="1621218462136" />
     <state x="506" y="355" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1621053369139">
       <screen x="0" y="25" width="1440" height="819" />
     </state>
     <state x="506" y="355" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.25.1440.819@0.25.1440.819" timestamp="1621053369139" />
+    <state x="458" y="221" key="extract.method.dialog" timestamp="1621826399866">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="458" y="221" key="extract.method.dialog/0.0.1440.900@0.0.1440.900" timestamp="1621826399866" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1621825434123">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1621825434123" />
   </component>
 </project>
