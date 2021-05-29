@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3bd34464-fe59-4612-85e7-f6b58c472c95" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/HoversPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/hover/HoverTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/DropDownPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/DropDownPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Login/LoginTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Login/LoginTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/HoversPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/HoversPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/hover/HoverTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hover/HoverTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +57,7 @@
       <recent name="$PROJECT_DIR$/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.DropDownTests.testSelectOption">
+  <component name="RunManager" selected="TestNG.HoverTests.testUser1">
     <configuration name="BaseTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="base.BaseTest" />
       <module name="webdriver_java" />
@@ -85,6 +82,24 @@
       <option name="PACKAGE_NAME" value="dropDown" />
       <option name="MAIN_CLASS_NAME" value="dropDown.DropDownTests" />
       <option name="METHOD_NAME" value="testSelectOption" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HoverTests.testUser1" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Selenium_Webdriver_Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hover.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="hover" />
+      <option name="MAIN_CLASS_NAME" value="hover.HoverTests" />
+      <option name="METHOD_NAME" value="testUser1" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -148,6 +163,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.HoverTests.testUser1" />
         <item itemvalue="TestNG.DropDownTests.testSelectOption" />
         <item itemvalue="TestNG.LoginTests.testSuccessfulLogin (1)" />
         <item itemvalue="TestNG.LoginTests.testSuccessfulLogin" />
@@ -173,7 +189,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621822335008</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="implementing hover page in to frame work">
+      <created>1621828188324</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1621828188325</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -181,7 +204,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -189,7 +214,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="drop down test implemented" />
-    <option name="LAST_COMMIT_MESSAGE" value="drop down test implemented" />
+    <MESSAGE value="implementing hover page in to frame work" />
+    <option name="LAST_COMMIT_MESSAGE" value="implementing hover page in to frame work" />
   </component>
   <component name="WindowStateProjectService">
     <state x="320" y="112" key="#Project_Structure" timestamp="1621047852092">
@@ -200,38 +226,62 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="100" y="100" width="1240" height="700" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1440.900@0.0.1440.900" timestamp="1621822290374" />
-    <state x="231" y="49" key="CommitChangelistDialog2" timestamp="1621822334526">
+    <state x="231" y="49" key="CommitChangelistDialog2" timestamp="1621828187421">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="231" y="49" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1621822334526" />
-    <state width="1398" height="275" key="GridCell.Tab.0.bottom" timestamp="1621822403584">
+    <state x="231" y="49" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1621828187421" />
+    <state width="1398" height="303" key="GridCell.Tab.0.bottom" timestamp="1622282469846">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="275" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1621822403584" />
+    <state width="1398" height="303" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1622282469846" />
     <state width="589" height="419" key="GridCell.Tab.0.bottom/0.25.1440.818@0.25.1440.818" timestamp="1621051209453" />
     <state width="1398" height="275" key="GridCell.Tab.0.bottom/0.25.1440.819@0.25.1440.819" timestamp="1621218462136" />
-    <state width="1398" height="275" key="GridCell.Tab.0.center" timestamp="1621822403582">
+    <state width="1398" height="303" key="GridCell.Tab.0.center" timestamp="1622282469840">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="275" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1621822403582" />
+    <state width="1398" height="303" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1622282469840" />
     <state width="589" height="419" key="GridCell.Tab.0.center/0.25.1440.818@0.25.1440.818" timestamp="1621051209453" />
     <state width="1398" height="275" key="GridCell.Tab.0.center/0.25.1440.819@0.25.1440.819" timestamp="1621218462135" />
-    <state width="1398" height="275" key="GridCell.Tab.0.left" timestamp="1621822403582">
+    <state width="1398" height="303" key="GridCell.Tab.0.left" timestamp="1622282469839">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="275" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1621822403582" />
+    <state width="1398" height="303" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1622282469839" />
     <state width="589" height="419" key="GridCell.Tab.0.left/0.25.1440.818@0.25.1440.818" timestamp="1621051209452" />
     <state width="1398" height="275" key="GridCell.Tab.0.left/0.25.1440.819@0.25.1440.819" timestamp="1621218462135" />
-    <state width="1398" height="275" key="GridCell.Tab.0.right" timestamp="1621822403583">
+    <state width="1398" height="303" key="GridCell.Tab.0.right" timestamp="1622282469844">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="275" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1621822403583" />
+    <state width="1398" height="303" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1622282469844" />
     <state width="589" height="419" key="GridCell.Tab.0.right/0.25.1440.818@0.25.1440.818" timestamp="1621051209453" />
     <state width="1398" height="275" key="GridCell.Tab.0.right/0.25.1440.819@0.25.1440.819" timestamp="1621218462136" />
+    <state width="1398" height="303" key="GridCell.Tab.1.bottom" timestamp="1622282453957">
+      <screen x="0" y="25" width="1440" height="819" />
+    </state>
+    <state width="1398" height="303" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1622282440374" />
+    <state width="1398" height="303" key="GridCell.Tab.1.bottom/0.25.1440.819@0.25.1440.819" timestamp="1622282453957" />
+    <state width="1398" height="303" key="GridCell.Tab.1.center" timestamp="1622282453956">
+      <screen x="0" y="25" width="1440" height="819" />
+    </state>
+    <state width="1398" height="303" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1622282440372" />
+    <state width="1398" height="303" key="GridCell.Tab.1.center/0.25.1440.819@0.25.1440.819" timestamp="1622282453956" />
+    <state width="1398" height="303" key="GridCell.Tab.1.left" timestamp="1622282453955">
+      <screen x="0" y="25" width="1440" height="819" />
+    </state>
+    <state width="1398" height="303" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1622282440371" />
+    <state width="1398" height="303" key="GridCell.Tab.1.left/0.25.1440.819@0.25.1440.819" timestamp="1622282453955" />
+    <state width="1398" height="303" key="GridCell.Tab.1.right" timestamp="1622282453956">
+      <screen x="0" y="25" width="1440" height="819" />
+    </state>
+    <state width="1398" height="303" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1622282440373" />
+    <state width="1398" height="303" key="GridCell.Tab.1.right/0.25.1440.819@0.25.1440.819" timestamp="1622282453956" />
     <state x="506" y="355" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1621053369139">
       <screen x="0" y="25" width="1440" height="819" />
     </state>
     <state x="506" y="355" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.25.1440.819@0.25.1440.819" timestamp="1621053369139" />
+    <state x="289" y="190" width="862" height="596" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1622281618686">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="289" y="190" width="862" height="596" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1440.900@0.0.1440.900" timestamp="1622281618686" />
     <state x="458" y="221" key="extract.method.dialog" timestamp="1621826399866">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -240,5 +290,16 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1621825434123" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/pages/HoversPage.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

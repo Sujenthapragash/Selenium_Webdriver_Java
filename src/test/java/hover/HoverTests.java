@@ -11,6 +11,8 @@ public class HoverTests extends BaseTest {
         var hoverPage = homePage.clickHover();
         var caption = hoverPage.hoverOverFigure(1);
         assertTrue(caption.isCaptionDisplayed(),"Caption not displayed");
-        assertEquals(caption.getTitle());
+        assertEquals(caption.getCaptionTitle(),"name: user1","Caption title incorrect");
+        assertEquals(caption.getCaptionLinkText(),"View profile","Caption link text incorrect");
+        assertTrue(caption.getCaptionLink().endsWith("/users/1"),"Caption link Incorrect");
     }
 }
