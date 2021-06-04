@@ -29,4 +29,8 @@ public class HomePage {
         clickLink("Hovers");
         return new HoversPage(driver);
     }
+    public KeyPresses clickKeyPresses(){
+        clickLink("Key Presses");
+        return new KeyPresses(driver);
+    }
 }
