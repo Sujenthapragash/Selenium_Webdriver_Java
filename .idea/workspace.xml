@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="3bd34464-fe59-4612-85e7-f6b58c472c95" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/KeyPresses.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/keyPresses/KeyPressesTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/HorizontalSliderPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/horizontalSlider/HorizontalSliderTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/HomePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/base/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/BaseTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,26 +30,20 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="MERGE" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
-    </option>
-  </component>
   <component name="ProjectId" id="1Wyl8zExcG7ER7DmekGcEUBA8b1" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -59,7 +56,7 @@
       <recent name="$PROJECT_DIR$/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.KeyPressesTests.testPi">
+  <component name="RunManager" selected="TestNG.HorizontalSliderTests.testSliderRange">
     <configuration name="DropDownTests.testSelectOption" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Selenium_Webdriver_Java" />
       <extension name="coverage">
@@ -71,6 +68,24 @@
       <option name="PACKAGE_NAME" value="dropDown" />
       <option name="MAIN_CLASS_NAME" value="dropDown.DropDownTests" />
       <option name="METHOD_NAME" value="testSelectOption" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HorizontalSliderTests.testSliderRange" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Selenium_Webdriver_Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="horizontalSlider.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="horizontalSlider" />
+      <option name="MAIN_CLASS_NAME" value="horizontalSlider.HorizontalSliderTests" />
+      <option name="METHOD_NAME" value="testSliderRange" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -132,52 +147,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginTests.testSuccessfulLogin (1)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Selenium_Webdriver_Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Login.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Login" />
-      <option name="MAIN_CLASS_NAME" value="Login.LoginTests" />
-      <option name="METHOD_NAME" value="testSuccessfulLogin" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LoginTests.testSuccessfulLogin" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Selenium_Webdriver_Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="login.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Login" />
-      <option name="MAIN_CLASS_NAME" value="login.LoginTests" />
-      <option name="METHOD_NAME" value="testSuccessfulLogin" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.HorizontalSliderTests.testSliderRange" />
+        <item itemvalue="TestNG.DropDownTests.testSelectOption" />
         <item itemvalue="TestNG.KeyPressesTests.testPi" />
         <item itemvalue="TestNG.KeyPressesTests.testBackSpace" />
         <item itemvalue="TestNG.HoverTests.testUser1" />
-        <item itemvalue="TestNG.DropDownTests.testSelectOption" />
-        <item itemvalue="TestNG.LoginTests.testSuccessfulLogin (1)" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -210,7 +190,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622282551740</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Add Keypresses class in framework and create a test for backspace and PI">
+      <created>1622778260348</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1622778260348</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -218,97 +205,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="drop down test implemented" />
     <MESSAGE value="implementing hover page in to frame work" />
     <MESSAGE value="testUser 1 in Hover page" />
-    <option name="LAST_COMMIT_MESSAGE" value="testUser 1 in Hover page" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="320" y="112" key="#Project_Structure" timestamp="1621047852092">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="320" y="112" key="#Project_Structure/0.0.1440.900@0.0.1440.900" timestamp="1621047852092" />
-    <state x="100" y="100" width="1240" height="700" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1621822290374">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="100" y="100" width="1240" height="700" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1440.900@0.0.1440.900" timestamp="1621822290374" />
-    <state x="533" y="163" key="#com.intellij.ide.util.MemberChooser" timestamp="1622774860615">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="533" y="163" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1622774860615" />
-    <state x="231" y="49" key="CommitChangelistDialog2" timestamp="1622282551412">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="231" y="49" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1622282551412" />
-    <state width="1398" height="303" key="GridCell.Tab.0.bottom" timestamp="1622778140505">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1398" height="303" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1622778140505" />
-    <state width="589" height="419" key="GridCell.Tab.0.bottom/0.25.1440.818@0.25.1440.818" timestamp="1621051209453" />
-    <state width="1398" height="275" key="GridCell.Tab.0.bottom/0.25.1440.819@0.25.1440.819" timestamp="1621218462136" />
-    <state width="1398" height="303" key="GridCell.Tab.0.center" timestamp="1622778140503">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1398" height="303" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1622778140503" />
-    <state width="589" height="419" key="GridCell.Tab.0.center/0.25.1440.818@0.25.1440.818" timestamp="1621051209453" />
-    <state width="1398" height="275" key="GridCell.Tab.0.center/0.25.1440.819@0.25.1440.819" timestamp="1621218462135" />
-    <state width="1398" height="303" key="GridCell.Tab.0.left" timestamp="1622778140501">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1398" height="303" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1622778140501" />
-    <state width="589" height="419" key="GridCell.Tab.0.left/0.25.1440.818@0.25.1440.818" timestamp="1621051209452" />
-    <state width="1398" height="275" key="GridCell.Tab.0.left/0.25.1440.819@0.25.1440.819" timestamp="1621218462135" />
-    <state width="1398" height="303" key="GridCell.Tab.0.right" timestamp="1622778140504">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1398" height="303" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1622778140504" />
-    <state width="589" height="419" key="GridCell.Tab.0.right/0.25.1440.818@0.25.1440.818" timestamp="1621051209453" />
-    <state width="1398" height="275" key="GridCell.Tab.0.right/0.25.1440.819@0.25.1440.819" timestamp="1621218462136" />
-    <state width="1398" height="303" key="GridCell.Tab.1.bottom" timestamp="1622778029283">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1398" height="303" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1622778029283" />
-    <state width="1398" height="303" key="GridCell.Tab.1.bottom/0.25.1440.819@0.25.1440.819" timestamp="1622282453957" />
-    <state width="1398" height="303" key="GridCell.Tab.1.center" timestamp="1622778029281">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1398" height="303" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1622778029281" />
-    <state width="1398" height="303" key="GridCell.Tab.1.center/0.25.1440.819@0.25.1440.819" timestamp="1622282453956" />
-    <state width="1398" height="303" key="GridCell.Tab.1.left" timestamp="1622778029281">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1398" height="303" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1622778029281" />
-    <state width="1398" height="303" key="GridCell.Tab.1.left/0.25.1440.819@0.25.1440.819" timestamp="1622282453955" />
-    <state width="1398" height="303" key="GridCell.Tab.1.right" timestamp="1622778029282">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1398" height="303" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1622778029282" />
-    <state width="1398" height="303" key="GridCell.Tab.1.right/0.25.1440.819@0.25.1440.819" timestamp="1622282453956" />
-    <state x="506" y="355" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1621053369139">
-      <screen x="0" y="25" width="1440" height="819" />
-    </state>
-    <state x="506" y="355" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.25.1440.819@0.25.1440.819" timestamp="1621053369139" />
-    <state x="289" y="190" width="862" height="596" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1622281618686">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="289" y="190" width="862" height="596" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1440.900@0.0.1440.900" timestamp="1622281618686" />
-    <state x="458" y="221" key="extract.method.dialog" timestamp="1621826399866">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="458" y="221" key="extract.method.dialog/0.0.1440.900@0.0.1440.900" timestamp="1621826399866" />
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1621825434123">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1621825434123" />
+    <MESSAGE value="Add Keypresses class in framework and create a test for backspace and PI" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Keypresses class in framework and create a test for backspace and PI" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

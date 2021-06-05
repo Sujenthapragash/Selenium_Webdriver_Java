@@ -2,7 +2,6 @@ package pages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebDriverException;
 
 public class HomePage {
     private WebDriver driver;
@@ -32,5 +31,10 @@ public class HomePage {
     public KeyPresses clickKeyPresses(){
         clickLink("Key Presses");
         return new KeyPresses(driver);
+    }
+
+    public HorizontalSliderPage clickHorizontalSlider(){
+        clickLink("Horizontal Slider");
+        return new HorizontalSliderPage(driver);
     }
 }
