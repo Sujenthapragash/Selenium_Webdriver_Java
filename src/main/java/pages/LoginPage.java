@@ -22,6 +22,7 @@ public class LoginPage {
     }
 
     public SecurePage clickLoginButton(){
+
         driver.findElement(submitButton).click();
         return new SecurePage(driver);
     }

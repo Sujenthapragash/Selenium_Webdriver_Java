@@ -1,0 +1,17 @@
+<suite name="Suite1" verbose="1" >
+    <test name="login" >
+        <classes>
+            <class name="login.LoginTests" />
+        </classes>
+    </test>
+
+    <test name="Regression1">
+        <classes>
+            <class name="login.LoginTests"/>
+            <class name="dropDown.DropDownTests"/>
+            <class name="horizontalSlider.HorizontalSliderTests"/>
+            <class name="hover.HoverTests" />
+            <class name="keyPresses.KeyPressesTests"/>
+        </classes>
+    </test>
+</suite>

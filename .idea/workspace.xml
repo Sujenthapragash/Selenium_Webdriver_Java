@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3bd34464-fe59-4612-85e7-f6b58c472c95" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/HorizontalSliderPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/horizontalSlider/HorizontalSliderTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestNG.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/base/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +54,7 @@
       <recent name="$PROJECT_DIR$/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.HorizontalSliderTests.testSliderRange">
+  <component name="RunManager" selected="TestNG./Users/spgash/Documents/Projects/testautomation/Selenium_Webdriver_Java/TestNG.xml">
     <configuration name="DropDownTests.testSelectOption" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Selenium_Webdriver_Java" />
       <extension name="coverage">
@@ -86,24 +84,6 @@
       <option name="PACKAGE_NAME" value="horizontalSlider" />
       <option name="MAIN_CLASS_NAME" value="horizontalSlider.HorizontalSliderTests" />
       <option name="METHOD_NAME" value="testSliderRange" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HoverTests.testUser1" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Selenium_Webdriver_Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="hover.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="hover" />
-      <option name="MAIN_CLASS_NAME" value="hover.HoverTests" />
-      <option name="METHOD_NAME" value="testUser1" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -147,13 +127,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="/Users/spgash/Documents/Projects/testautomation/Selenium_Webdriver_Java/TestNG.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Selenium_Webdriver_Java" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/TestNG.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG./Users/spgash/Documents/Projects/testautomation/Selenium_Webdriver_Java/TestNG.xml" />
         <item itemvalue="TestNG.HorizontalSliderTests.testSliderRange" />
         <item itemvalue="TestNG.DropDownTests.testSelectOption" />
         <item itemvalue="TestNG.KeyPressesTests.testPi" />
         <item itemvalue="TestNG.KeyPressesTests.testBackSpace" />
-        <item itemvalue="TestNG.HoverTests.testUser1" />
       </list>
     </recent_temporary>
   </component>
@@ -197,7 +187,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622778260348</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Add HorizonalSlide class in framework and create a test for horizonal slider range check">
+      <created>1622862642429</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1622862642429</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -217,7 +214,8 @@
     <MESSAGE value="implementing hover page in to frame work" />
     <MESSAGE value="testUser 1 in Hover page" />
     <MESSAGE value="Add Keypresses class in framework and create a test for backspace and PI" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Keypresses class in framework and create a test for backspace and PI" />
+    <MESSAGE value="Add HorizonalSlide class in framework and create a test for horizonal slider range check" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add HorizonalSlide class in framework and create a test for horizonal slider range check" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -226,6 +224,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/pages/HoversPage.java</url>
           <line>40</line>
           <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/horizontalSlider/HorizontalSliderTests.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
