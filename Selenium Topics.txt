@@ -1,0 +1,37 @@
+Setup a Maven Project
+Setup the Maven dependencies
+	Selenium
+	TestNg
+Create a test framework
+	POM - Page Object Model
+
+DropDown - Select Object from selenium-support
+	Setup Maven dependency for selenium-support
+
+Action class from Selenium - to do the all kind of mouse work
+
+Keys class from Selenium - to access the all kind of keyboard action
+
+Alert - driver.switchTo().alert().
+
+FileUpload - sendKey("absolute path of file")
+
+Frame - <iframe> HTMl 
+	driver.switchTO().frame(ID/Index/WebElement)
+	driver.switchTo().parentFrame() ->Back to main DOM
+
+Wait - 	Implicit Waits	Use them at project level// driver.manage().tomeOut().implicityWait(time and time unit)
+	Explicit Waits.  use them only when we need to  // WebDriverWait class
+		
+	Fluent Waits	more flexibility //FluentWait class
+
+
+Javascript - JavaScriptExecuter class , executeScript("String script") method
+
+Application Navigation 	WebDriver.Navigation() -> using to manage the web window option like forward/backward/reload/go to specific URL
+
+Window Manager -  WebDriver.getWindowHandler  which is provide windows with uniq id , then use switchTo.window(Window ID) methord.
+						
+Screenshot - casting web driver element TakeScreenShot class and use the method call getScreenshotAs()
+
+Eventlistnere - using to track every WebDriver element event happening , using EventFiringWebdriver class inter of WebDriver class in setup and call method evenFiringWebdriver.register(class which is implement WebdriverEvenListner interface) .
