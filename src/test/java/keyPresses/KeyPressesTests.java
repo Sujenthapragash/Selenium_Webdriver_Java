@@ -19,7 +19,7 @@ public class KeyPressesTests extends BaseTest {
     public void testPi(){
         var keyPress = homePage.clickKeyPresses();
         keyPress.enterPi();
-        assertEquals(keyPress.getResult(),"4","Result test incorrect");
+        assertEquals(keyPress.getResult(),"You entered: 4","Result test incorrect");
     }
 
 

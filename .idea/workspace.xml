@@ -5,9 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3bd34464-fe59-4612-85e7-f6b58c472c95" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/TestNG.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestNG.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TestNG.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/chromedriver" beforeDir="false" afterPath="$PROJECT_DIR$/res/chromedriver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/base/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/keyPresses/KeyPressesTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/keyPresses/KeyPressesTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/DropDownPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/HomePage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/LoginPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/SecurePage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Login/LoginTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/base/BaseTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +50,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -54,7 +63,7 @@
       <recent name="$PROJECT_DIR$/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG./Users/spgash/Documents/Projects/testautomation/Selenium_Webdriver_Java/TestNG.xml">
+  <component name="RunManager" selected="TestNG.KeyPressesTests.testPi">
     <configuration name="DropDownTests.testSelectOption" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Selenium_Webdriver_Java" />
       <extension name="coverage">
@@ -139,10 +148,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.KeyPressesTests.testPi" />
         <item itemvalue="TestNG./Users/spgash/Documents/Projects/testautomation/Selenium_Webdriver_Java/TestNG.xml" />
         <item itemvalue="TestNG.HorizontalSliderTests.testSliderRange" />
         <item itemvalue="TestNG.DropDownTests.testSelectOption" />
-        <item itemvalue="TestNG.KeyPressesTests.testPi" />
         <item itemvalue="TestNG.KeyPressesTests.testBackSpace" />
       </list>
     </recent_temporary>
@@ -194,7 +203,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622862642429</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="create a TestNG.xml file">
+      <created>1623684288145</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1623684288145</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -215,7 +231,8 @@
     <MESSAGE value="testUser 1 in Hover page" />
     <MESSAGE value="Add Keypresses class in framework and create a test for backspace and PI" />
     <MESSAGE value="Add HorizonalSlide class in framework and create a test for horizonal slider range check" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add HorizonalSlide class in framework and create a test for horizonal slider range check" />
+    <MESSAGE value="create a TestNG.xml file" />
+    <option name="LAST_COMMIT_MESSAGE" value="create a TestNG.xml file" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
