@@ -4,20 +4,7 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3bd34464-fe59-4612-85e7-f6b58c472c95" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestNG.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TestNG.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/chromedriver" beforeDir="false" afterPath="$PROJECT_DIR$/res/chromedriver" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/base/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/keyPresses/KeyPressesTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/keyPresses/KeyPressesTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/DropDownPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/HomePage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/LoginPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/SecurePage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Login/LoginTests.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/base/BaseTest.class" beforeDir="false" />
-    </list>
+    <list default="true" id="3bd34464-fe59-4612-85e7-f6b58c472c95" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -64,8 +51,21 @@
     </key>
   </component>
   <component name="RunManager" selected="TestNG.KeyPressesTests.testPi">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="The-Internet.Herokuapp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="The-Internet.Herokuapp" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DropDownTests.testSelectOption" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Selenium_Webdriver_Java" />
+      <module name="The-Internet.Herokuapp" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="dropDown.*" />
@@ -83,7 +83,7 @@
       </method>
     </configuration>
     <configuration name="HorizontalSliderTests.testSliderRange" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Selenium_Webdriver_Java" />
+      <module name="The-Internet.Herokuapp" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="horizontalSlider.*" />
@@ -101,7 +101,7 @@
       </method>
     </configuration>
     <configuration name="KeyPressesTests.testBackSpace" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Selenium_Webdriver_Java" />
+      <module name="The-Internet.Herokuapp" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="keyPresses.*" />
@@ -119,7 +119,7 @@
       </method>
     </configuration>
     <configuration name="KeyPressesTests.testPi" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Selenium_Webdriver_Java" />
+      <module name="The-Internet.Herokuapp" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="keyPresses.*" />
@@ -137,7 +137,7 @@
       </method>
     </configuration>
     <configuration name="/Users/spgash/Documents/Projects/testautomation/Selenium_Webdriver_Java/TestNG.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Selenium_Webdriver_Java" />
+      <module name="The-Internet.Herokuapp" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/TestNG.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
       <properties />
@@ -210,7 +210,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623684288145</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="1 st part completed">
+      <created>1624928774584</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1624928774584</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -232,7 +239,8 @@
     <MESSAGE value="Add Keypresses class in framework and create a test for backspace and PI" />
     <MESSAGE value="Add HorizonalSlide class in framework and create a test for horizonal slider range check" />
     <MESSAGE value="create a TestNG.xml file" />
-    <option name="LAST_COMMIT_MESSAGE" value="create a TestNG.xml file" />
+    <MESSAGE value="1 st part completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="1 st part completed" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
