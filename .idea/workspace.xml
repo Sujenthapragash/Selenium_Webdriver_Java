@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3bd34464-fe59-4612-85e7-f6b58c472c95" name="Default Changelist" comment="" />
+    <list default="true" id="3bd34464-fe59-4612-85e7-f6b58c472c95" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/base/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/BaseTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,19 +55,6 @@
     </key>
   </component>
   <component name="RunManager" selected="TestNG.KeyPressesTests.testPi">
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="The-Internet.Herokuapp" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="The-Internet.Herokuapp" />
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="DropDownTests.testSelectOption" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="The-Internet.Herokuapp" />
       <extension name="coverage">
@@ -217,7 +208,14 @@
       <option name="project" value="LOCAL" />
       <updated>1624928774584</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Change Project Name as The-Internet.Herokuapp">
+      <created>1624929551539</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1624929551539</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -240,7 +238,8 @@
     <MESSAGE value="Add HorizonalSlide class in framework and create a test for horizonal slider range check" />
     <MESSAGE value="create a TestNG.xml file" />
     <MESSAGE value="1 st part completed" />
-    <option name="LAST_COMMIT_MESSAGE" value="1 st part completed" />
+    <MESSAGE value="Change Project Name as The-Internet.Herokuapp" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change Project Name as The-Internet.Herokuapp" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
